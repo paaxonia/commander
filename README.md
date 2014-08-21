@@ -1,4 +1,4 @@
-Commander
+Paaxonia Commander
 =========
 
-Command handler
+Based on the Laracasts Commander created by Jeffrey Way
