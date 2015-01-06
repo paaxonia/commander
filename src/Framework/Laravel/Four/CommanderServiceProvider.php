@@ -1,4 +1,4 @@
-<?php namespace Paaxonia\Commander;
+<?php namespace Paaxonia\Commander\Framework\Laravel\Four;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -18,7 +18,9 @@ class CommanderServiceProvider extends ServiceProvider {
      */
     public function provides()
     {
-        return ['commander'];
+        return [
+            'Paaxonia\Commander\CommandBus'
+        ];
     }
 
     /**
